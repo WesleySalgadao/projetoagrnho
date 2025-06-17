@@ -6,8 +6,8 @@
 }
 
 body {
-  background: linear-gradient(#e0ffe0, #f0f0ff);
-  color: #333;
+  background: linear-gradient(#0db3dd, #3c3cff);
+  color: #000000;
 }
 
 a {
@@ -18,9 +18,9 @@ a {
 header {
   text-align: center;
   padding: 40px;
-  background: #3a6b35;
-  color: white;
-  border-bottom: 10px solid #d9a441;
+  background: #03cde7;
+  color: rgb(0, 247, 255);
+  border-bottom: 10px solid #d400ff;
 }
 
 header h1 {
@@ -36,7 +36,7 @@ header p {
   text-align: center;
   padding: 30px;
   font-size: 1.2em;
-  background-color: #fff8dc;
+  background-color: #00aeff;
 }
 
 .cards {
@@ -45,25 +45,25 @@ header p {
   justify-content: center;
   padding: 40px 20px;
   gap: 30px;
-  background: #f7f7f7;
+  background: #911786;
 }
 
 .card {
-  background: white;
+  background: rgb(130, 27, 156);
   border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 16px rgba(14, 207, 255, 0.774);
   width: 300px;
   text-align: center;
   padding: 20px;
   transition: all 0.3s ease;
   display: block;
-  color: #3a6b35;
+  color: #08ccbc;
 }
 
 /* Quando passa o mouse no card inteiro */
 .card:hover {
-  background-color: #3a6b35;
-  color: white;
+  background-color: #3263e9;
+  color: rgb(33, 212, 212);
 }
 
 .card img {
@@ -85,16 +85,16 @@ header p {
 }
 
 footer {
-  background: #3a6b35;
-  color: white;
+  background: #1290a7;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px;
   margin-top: 40px;
 }
 .rodape-centralizado {
   position: relative;
-  background: #3a6b35;
-  color: white;
+  background: #000000;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px 40px;
 }
@@ -117,21 +117,21 @@ footer {
   justify-content: flex-end;
   gap: 10px;
   padding: 10px 20px;
-  background: #f0f0f0;
+  background: #0cc8f7;
 }
 
 .acessibilidade button {
   font-size: 1em;
   padding: 6px 12px;
-  background-color: #3a6b35;
-  color: #fff;
+  background-color: #005e64;
+  color: #00ffaa;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .acessibilidade button:hover {
-  background-color: #2e4f29;
+  background-color: #187cb6;
 }
 .descricao h2 {
   margin-bottom: 30px;
@@ -178,4 +178,21 @@ main {
 .descricao h2 {
   margin-left: 30px;
 
+}
+.acessibilidade {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px 20px;
+  background: #07fcfc;
+}
+
+.acessibilidade button {
+  font-size: 1em;
+  padding: 6px 12px;
+  background-color: #00d9e9;
+  color: #00fff2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
